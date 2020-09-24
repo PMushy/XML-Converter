@@ -11,25 +11,25 @@ import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stream.StreamResult;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.Arrays;
+import java.util.*;
 
 public class ConverterXml {
     private StreamResult out;
     private TransformerHandler th;
 
-    public void begin() {
+    public void begin(String path) {
         try {
-            BufferedReader in = new BufferedReader(new FileReader("data.txt"));
+            BufferedReader in = new BufferedReader(new FileReader(path));
             out = new StreamResult("data.xml");
             openXml();
             String str;
-            String[] elements = null;
+            List<String> elements = new ArrayList();
 
             while ((str = in.readLine()) != null) {
                 th.startElement(null, null, "sentence", null);
                 String s = str.replaceAll("^\\s+", "");
-                elements = s.split("[^\\w]+");
-                Arrays.parallelSort(elements);
+                elements = Arrays.asList(s.split("[^\\w]+"));
+                elements.sort(String::compareToIgnoreCase);
                 for (String x : elements
                 ) {
                     processWord(x);
@@ -44,7 +44,7 @@ public class ConverterXml {
         }
     }
 
-    public void openXml() throws ParserConfigurationException, TransformerConfigurationException, SAXException {
+    private void openXml() throws ParserConfigurationException, TransformerConfigurationException, SAXException {
         SAXTransformerFactory tf = (SAXTransformerFactory) SAXTransformerFactory.newInstance();
         th = tf.newTransformerHandler();
 
@@ -57,13 +57,13 @@ public class ConverterXml {
         th.startElement(null, null, "text", null);
     }
 
-    public void processWord(String s) throws SAXException {
+    private void processWord(String s) throws SAXException {
         th.startElement(null, null, "word", null);
         th.characters(s.toCharArray(), 0, s.length());
         th.endElement(null, null, "word");
     }
 
-    public void closeXml() throws SAXException {
+    private void closeXml() throws SAXException {
         th.endElement(null, null, "text");
         th.endDocument();
     }

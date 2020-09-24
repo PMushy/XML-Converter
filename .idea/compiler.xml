@@ -9,5 +9,8 @@
         <module name="textConverter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="textConverter" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
