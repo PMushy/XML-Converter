@@ -1,4 +1,4 @@
-package com.pl.mushy.program;
+package com.pl.mushy.logic;
 
 import org.xml.sax.SAXException;
 
@@ -11,7 +11,8 @@ import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stream.StreamResult;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 public class ConverterXml {
     private StreamResult out;
@@ -23,7 +24,7 @@ public class ConverterXml {
             out = new StreamResult("data.xml");
             openXml();
             String str;
-            List<String> elements = new ArrayList();
+            List<String> elements;
 
             while ((str = in.readLine()) != null) {
                 th.startElement(null, null, "sentence", null);
