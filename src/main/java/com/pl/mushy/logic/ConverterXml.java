@@ -50,8 +50,8 @@ public class ConverterXml {
         th = tf.newTransformerHandler();
 
         Transformer serializer = th.getTransformer();
-        serializer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
         serializer.setOutputProperty(OutputKeys.INDENT, "yes");
+        serializer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
         th.setResult(out);
         th.startDocument();
