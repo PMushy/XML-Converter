@@ -11,7 +11,7 @@ public class Main {
         ConverterCsv converterCsv = new ConverterCsv();
         String path = "data.txt";
 
-//        converterXml.begin(path);
+        converterXml.begin(path);
         converterCsv.begin(path);
     }
 }
