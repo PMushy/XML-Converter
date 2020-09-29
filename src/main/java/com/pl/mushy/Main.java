@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ConverterXml converterXml = new ConverterXml();
         ConverterCsv converterCsv = new ConverterCsv();
-        String path = "data.txt";
+        String path = "testingData/data.txt";
 
         converterXml.begin(path);
         converterCsv.begin(path);

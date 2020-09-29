@@ -17,10 +17,10 @@ public class TestConverterCsv {
 
     @Before
     public void setUp() throws FileNotFoundException {
-        output = new BufferedReader(new FileReader("data.csv"));
-        expected = new BufferedReader(new FileReader("testData.csv"));
+        output = new BufferedReader(new FileReader("testingData/data.csv"));
+        expected = new BufferedReader(new FileReader("testingData/testData.csv"));
         converterCsv = new ConverterCsv();
-        path = "data.txt";
+        path = "testingData/data.txt";
     }
 
     @Test

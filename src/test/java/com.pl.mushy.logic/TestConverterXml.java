@@ -17,10 +17,10 @@ public class TestConverterXml {
 
     @Before
     public void setUp() throws FileNotFoundException {
-        output = new BufferedReader(new FileReader("data.xml"));
-        expected = new BufferedReader(new FileReader("testData.xml"));
+        output = new BufferedReader(new FileReader("testingData/data.xml"));
+        expected = new BufferedReader(new FileReader("testingData/testData.xml"));
         converterXml = new ConverterXml();
-        path = "data.txt";
+        path = "testingData/data.txt";
     }
 
     @Test

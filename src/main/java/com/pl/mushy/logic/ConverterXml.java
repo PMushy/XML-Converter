@@ -2,7 +2,6 @@ package com.pl.mushy.logic;
 
 import org.xml.sax.SAXException;
 
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
@@ -15,13 +14,13 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ConverterXml {
-    private StreamResult out;
+    private StreamResult sr;
     private TransformerHandler th;
 
     public void begin(String path) {
         try {
             BufferedReader in = new BufferedReader(new FileReader(path));
-            out = new StreamResult("data.xml");
+            sr = new StreamResult("testingData/data.xml");
             openXml();
             String str;
             List<String> elements;
@@ -35,7 +34,6 @@ public class ConverterXml {
                 ) {
                     processWord(x);
                 }
-
                 th.endElement(null, null, "sentence");
             }
             in.close();
@@ -45,7 +43,7 @@ public class ConverterXml {
         }
     }
 
-    private void openXml() throws ParserConfigurationException, TransformerConfigurationException, SAXException {
+    private void openXml() throws TransformerConfigurationException, SAXException {
         SAXTransformerFactory tf = (SAXTransformerFactory) SAXTransformerFactory.newInstance();
         th = tf.newTransformerHandler();
 
@@ -53,7 +51,7 @@ public class ConverterXml {
         serializer.setOutputProperty(OutputKeys.INDENT, "yes");
         serializer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
-        th.setResult(out);
+        th.setResult(sr);
         th.startDocument();
         th.startElement(null, null, "text", null);
     }
