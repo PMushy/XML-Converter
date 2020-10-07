@@ -11,15 +11,15 @@ import java.util.stream.Stream;
 public class ConverterCsv {
     private int i = 1;
 
-    public void begin(String path) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(path));
-        BufferedWriter bw = new BufferedWriter(new FileWriter("testingData/data.csv"));
+    public void begin(String pathIn, String pathOut) throws IOException {
+        LineOfFile lineOfFile = new LineOfFile(pathIn);
+        BufferedWriter bw = new BufferedWriter(new FileWriter(pathOut));
         StringJoiner stringJoiner1 = new StringJoiner(",", "", "");
 
         List<String> elements, list = new ArrayList<>();
         String str;
 
-        while ((str = br.readLine()) != null) {
+        while ((str = lineOfFile.getSentence()) != null) {
             String s = str.replaceAll("^\\s+", "");
             elements = Arrays.asList(s.split("[^\\w]+"));
             elements.sort(String::compareToIgnoreCase);

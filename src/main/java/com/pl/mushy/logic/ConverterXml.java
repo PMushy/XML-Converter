@@ -17,10 +17,10 @@ public class ConverterXml {
     private StreamResult sr;
     private TransformerHandler th;
 
-    public void begin(String path) {
+    public void begin(String pathIn, String pathOut) {
         try {
-            BufferedReader in = new BufferedReader(new FileReader(path));
-            sr = new StreamResult("testingData/data.xml");
+            BufferedReader in = new BufferedReader(new FileReader(pathIn));
+            sr = new StreamResult(pathOut);
             openXml();
             String str;
             List<String> elements;

@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8dacab9-f9d5-479e-a2fb-27019ba7534e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/LineOfFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testingData/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testingData/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testingData/data.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pl/mushy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterCsv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterXml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterCsv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pl/mushy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pl/mushy/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterCsv.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterXml.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterCsv.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterXml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testingData/testData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testingData/testData.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\IdeaProjects\textConverter\testingData" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -136,46 +139,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601381831342" />
-    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1601313005453">
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1602093474023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601313005453" />
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602093474023" />
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601201836517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601201836517" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601382058411">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602094387248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601382058411" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601382058411">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602094387248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601382058411" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601382058411">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602094387248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601382058411" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601382058411">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602094387248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601382058411" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601365429932">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601929625148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601365429932" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1601365429932">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601929625148" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1601929625148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601365429932" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1601365429932">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601929625148" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1601929625148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601365429932" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1601365429932">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601929625148" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1601929625148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601365429932" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601929625148" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
