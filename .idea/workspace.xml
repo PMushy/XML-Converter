@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="textConverter:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8dacab9-f9d5-479e-a2fb-27019ba7534e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/LineOfFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/textConverter_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pl/mushy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterCsv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pl/mushy/logic/ConverterXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterCsv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.pl.mushy.logic/TestConverterXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/textConverter.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pl/mushy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pl/mushy/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterCsv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pl/mushy/logic/ConverterXml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterCsv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pl/mushy/logic/TestConverterXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/textConverter.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +41,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="textconverter" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600975828533" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.32528734" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\IdeaProjects\textConverter\src\main\resources" />
+      <recent name="C:\Users\Marcin\IdeaProjects\textConverter" />
       <recent name="C:\Users\Marcin\IdeaProjects\textConverter\testingData" />
     </key>
   </component>
@@ -135,6 +147,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Notifications" timestamp="1602173391634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1602173391634" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601381831342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,26 +159,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602093474023" />
+    <state x="690" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602176862329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602176862329" />
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601201836517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601201836517" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602094387248">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1602174711588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602094387248">
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602174711588" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602176595949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602094387248">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602176595949" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602176595949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602094387248">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602176595949" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602176595949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602094387248" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602176595949" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602176595949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602176595949" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601929625148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,85 +203,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601929625148" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1602176988265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602176988265" />
+    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602173716956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1602173716956" />
+    <state x="342" y="216" key="new project wizard" timestamp="1602175103589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="216" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602175103589" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.projectlombok:lombok:1.18.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>textConverter</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
